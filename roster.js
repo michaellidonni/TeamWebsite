@@ -1,3 +1,5 @@
+setTimeout(() => window.location.replace("homepage.html"), 5000);
+
 document.addEventListener('DOMContentLoaded', () => {
     const grid = document.getElementById("rosterGrid")
     const render = list => {

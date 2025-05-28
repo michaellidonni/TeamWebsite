@@ -1,0 +1,51 @@
+#logo {
+    width: 40%;
+    height: auto;
+}
+
+#landing-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+body {
+    background-color: black;
+}
+
+#text {
+    color: white;
+    font-size: 30px;
+    margin-top: 40px;
+    font-family: "Red Hat Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.home-body {
+    background-image: url(https://www.sportspro.com/wp-content/uploads/2022/03/UFC-272.png);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.UFC-History {
+    background-color: black;
+    color: white;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    min-height: 100vh;
+}
