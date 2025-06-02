@@ -29,21 +29,14 @@ body {
 
 .home-body {
     background-image: url(https://www.sportspro.com/wp-content/uploads/2022/03/UFC-272.png);
-    background-position: cover;
-    background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
 }
 
-.home {
-    background: rgba(0, 0, 0, 0.7);
-    border-radius: 50px;
-    padding: 100px;
-    border: 2px solid #e10600;
-    position: relative;
-    backdrop-filter: blur(5px);
-    color: white;
-    margin-top: 10%;
+.text-shadow-red {
+    text-shadow: 2px 2px 6px #e10600;
 }
 
 .ufc-navbar {
@@ -96,12 +89,184 @@ body {
 }
 
 .title {
-    font-family: "Red Hat Text", sans-serif;
-    font-optical-sizing: auto;
+    font-family: 'Red Hat Text', sans-serif;
     font-weight: 700;
     font-style: italic;
     color: white;
-    font-size: 50px;
-    text-shadow: -2px -2px 0 red, 2px -2px 0 red, 2px 2px 0 red,
-        2px 2px 0 red;
+    font-size: 3rem;
+}
+
+.hero-section {
+    background-image: url("https://www.sportspro.com/wp-content/uploads/2022/03/UFC-272.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+.hero-overlay {
+    background-color: rgba(0, 0, 0, 0.85);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 4rem;
+    color: #e10600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    border: 2px solid #e10600;
+    box-shadow: 0 0 12px rgba(255, 0, 0, 0.4);
+}
+
+.photo {
+    width: 100%;
+    height: 50%;
+}
+
+#rosterGrid .card {
+    border: none;
+    border-radius: 12px;
+    background: #1a1a1a;
+    color: #f5f5f5;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 12px rgba(255, 0, 0, 0.2);
+}
+
+#rosterGrid .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.35);
+}
+
+#rosterGrid .card-img-top.photo {
+    height: 220px;
+    object-fit: cover;
+    border-bottom: 2px solid #e10600;
+}
+
+#rosterGrid .card-body {
+    padding: 16px;
+    background-color: #111;
+}
+
+#rosterGrid .card-title {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.badge-position {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-color: #e10600;
+    color: #fff;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+.badge-pos-Featherweight {
+    background-color: #cc0000;
+}
+
+.badge-pos-Lightweight {
+    background-color: #b30000;
+}
+
+.badge-pos-Welterweight {
+    background-color: #990000;
+}
+
+.badge-pos-Middleweight {
+    background-color: #800000;
+}
+
+.badge-pos-Heavyweight {
+    background-color: #660000;
+}
+
+#rosterGrid .small {
+    font-size: 14px;
+    color: #ccc;
+}
+
+#rosterGrid .btn-primary {
+    background-color: #e10600;
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: background-color 0.2s ease;
+}
+
+#rosterGrid .btn-primary:hover {
+    background-color: #ff1a1a;
+}
+
+.modal-content {
+    background-color: #1a1a1a;
+    color: #fff;
+    border: 2px solid #e10600;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.4);
+    font-family: 'Orbitron', sans-serif;
+}
+
+.modal-header {
+    border-bottom: 1px solid #e10600;
+    background-color: #111;
+}
+
+.modal-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.modal-body {
+    background-color: #111;
+    padding: 32px;
+}
+
+#modalName {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#modalPosition,
+#modalRank,
+#modalAge {
+    font-size: 15px;
+    color: #ccc;
+    margin-bottom: 4px;
 }

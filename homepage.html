@@ -2,80 +2,54 @@
 <html lang="en">
 
 <head>
-    <title>Title</title>
-    <!-- Required meta tags -->
+    <title>UFC Roster</title>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap CSS v5.2.1 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/imgs/ufcfavicon.png">
 </head>
 
 <body class="home-body">
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark ufc-navbar">
             <div class="container-fluid">
-                <a class="navbar-brand" href="">
-                    <img class="ufc-img" src="imgs/UFC_Logo.png" alt="">
+                <a class="navbar-brand" href="#">
+                    <img class="ufc-img" src="imgs/UFC_Logo.png" alt="UFC Logo">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="homepage.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="roster.html">Roster</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="upcoming.html">Upcoming</a>
-                        </li>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="homepage.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="roster.html">Roster</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-
     </header>
-    <main class="container">
-        <div class="row home">
-            <div class="col-6">
-                <div class="col-12">
-                    <h1 class="text-center title ">UFC</h1>
-                </div>
-                <div class="col-12 UFC-History">
-                    <h4 class="text-center  ">UFC, a renowned MMA brand, has a rich history In 2001, under Zuffa, LLC,
-                        Dana White and other owners restructured MMA into a highly organized, sanctioned, and controlled
-                        combat sport. Headquartered in Las Vegas, UFC produces over 40 live events annually,
-                        consistently selling out prestigious arenas worldwide. UFC strives for safety and quality in all
-                        aspects of the sport, breaking down gender stereotypes and providing athletes with accident
-                        insurance coverage for training-related injuries.</h4>
-                </div>
-            </div>
-            <div class="col-6">
+
+    <main class="hero-section">
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <h1>THE UFC</h1>
+                <p>
+                    The UFC has transformed mixed martial arts into a global spectacle. From brutal knockouts to
+                    strategic battles, UFC is more than a fight — it’s a legacy. With over 40 live events each year and
+                    a roster of elite athletes, the Octagon is where legends are made.
+                </p>
                 <img src="https://cdn.britannica.com/48/264348-050-4343B16B/dana-white-united-fighting-championship-ceo-july-25-2024-manchester-england.jpg"
-                    alt="" class="img-fluid mt-4 ms-4" />
+                    alt="Dana White" class="hero-image">
             </div>
         </div>
     </main>
-    <footer>
-        <!-- place footer here -->
-    </footer>
-    <!-- Bootstrap JavaScript Libraries -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-        crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
